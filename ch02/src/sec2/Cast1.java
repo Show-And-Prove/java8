@@ -19,5 +19,5 @@ public class Cast1 {
 		f = a + c;
 		a = (int) (f + c);
 	}
-
+	
 }
