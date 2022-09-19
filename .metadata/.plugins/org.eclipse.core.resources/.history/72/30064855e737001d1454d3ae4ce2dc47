@@ -1,0 +1,24 @@
+package sec1;
+
+public class MemberEx {
+	public static void main(String[] args){
+		Member mem1 = new Member();
+		mem1.setId("kkt");
+		mem1.setPassword("1234");
+		mem1.setName("김기태");
+		System.out.println("아이디 : "+mem1.getId());
+		System.out.println("비밀번호 : "+mem1.getPassword());
+		System.out.println("이름 : "+mem1.getName());
+		
+		System.out.println();
+		
+		Member mem2 = new Member();
+		mem2.setId("a1001");
+		mem2.setPassword("1234");
+		mem2.setName(" ");
+		System.out.println("아이디 : "+mem2.getId());
+		System.out.println("비밀번호 : "+mem2.getPassword());
+		System.out.println("이름 : "+mem2.getName());
+	}
+
+}
