@@ -3,10 +3,13 @@ package sec2;
 public class StudentEx {
 
 	public static void main(String[] args) {
-		Student stu1 = new Student ("김기태", 90,70,90);
-		System.out.println("이름 :"+stu1.getID());
-		System.out.println("총합 : "+stu1.calcTot());
-		System.out.println("평균 : "+stu1.calcAvg());
+			Student stu1 = new Student("김기태",90,80,90);
+			System.out.println("이름 : "+stu1.getName());		//접근제한자가 public이므로 getter setter 안써도 
+			System.out.println("총점 : "+stu1.calcTot());
+			System.out.println("평균 : "+stu1.calcAvg());
+			System.out.println("학점 : "+stu1.calcHak());
+			System.out.println("판정 : "+stu1.calcRes());
+		
 	}
 
 }
