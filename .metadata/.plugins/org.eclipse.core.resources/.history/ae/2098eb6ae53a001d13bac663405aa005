@@ -1,0 +1,5 @@
+package Sec3;
+
+public class Sigletone {
+
+}
