@@ -1,0 +1,12 @@
+package sec2;
+
+public class Cat implements Soundable{
+
+	private String sound;
+	@Override
+	public String sound() {
+		
+		return "야옹";
+	}
+	
+}

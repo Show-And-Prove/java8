@@ -7,4 +7,9 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="sec3.MichelinTire"/>
+<fullyQualifiedTypeName name="sec1.Interface2"/>
+<fullyQualifiedTypeName name="sec2.Television"/>
+<fullyQualifiedTypeName name="sec2.Audio"/>
+<fullyQualifiedTypeName name="sec2.RemoteControl"/>
 </qualifiedTypeNameHistroy>

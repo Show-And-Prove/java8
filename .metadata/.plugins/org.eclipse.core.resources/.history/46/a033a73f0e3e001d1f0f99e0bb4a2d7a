@@ -1,0 +1,16 @@
+package sec4;
+
+public abstract class Student {
+	String bun;
+	String name;
+	int jum1;
+	int jum2;
+	int jum3;
+	
+	abstract int computeTot(int jum1, int jum2, int jum3);
+	abstract int computeAvg(int jum1, int jum2, int jum3);
+	public String computeHak(int jum1, int jum2, int jum3){
+		int tot = jum1 + jum2 + jum3;
+		
+	}
+}
