@@ -1,7 +1,0 @@
-package Sec3;
-
-public class Sigletone {
-	private static Singletone sintone = new Singletone();
-	private Singletone()	{}
-	
-}
