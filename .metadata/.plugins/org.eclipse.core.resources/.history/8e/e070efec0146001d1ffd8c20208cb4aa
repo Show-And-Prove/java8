@@ -1,0 +1,14 @@
+package sec1;
+
+public class ListEx2 {
+	public static void main(String[] args){
+		
+		
+	}
+	static void insert (Student e){	//학생 추가
+		
+	}
+	static List<Student> select(){
+		
+	}
+}
