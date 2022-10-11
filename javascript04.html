@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자바스크립트04 - 객체 그리고 함수</title>
+    <script>
+    //사용자 정의 객체
+    var man1 = {num:1, name:"김기태", style:"잘생김", score:100};   //임의의 객체 생성
+    document.write("번호 : "+man1.num+"이름 : "+man1.name+"스타일 : "+man1.style);
+    
+    function Animal(name, age, color){  //생성자
+        this.name = name;
+        this.age = age;
+        this.color = color;
+        this.cry = fuction(sound){
+            document.write(sound + "<br>");
+        }
+
+    }
+
+    var myCat = new Animal("양이", 5, "black"); //Animal클래스로부터 얻어진 객체1
+    myCat.family = "페르시안";   //속성 추가
+    myCat.toString = fuction(){
+        document.write(this.name+", "+this.age+", "+this.color+ "<br>");
+    }
+    var myDog = new Amimal("멍이", 6, "white"); //Animal클래스로부터 얻어진 객체2
+    document.write(myCat.name+", "+myCat.age+", "+myCat.color+ "<br>");
+    
+    //사용자 정의 함수
+    function fnc1(){    //함수 선언 - 매개변수 x 리턴 x
+        document.write("함수1 호출"+"<br>");
+    }
+    var fnc2 = function(x){     //함수 선언 - 매개변수 O 리턴 x
+        document.write("함수2 호출"+"<br>");
+        document.write(x+"를 입력하셨습니다.\n");
+    }
+    function fnc3(){    //함수 선언 - 매개변수 x 리턴 o
+        document.write("함수3 호출"+"<br>");
+        var i = prompt("숫자를 입력하세요 : \n");
+        return i;
+    }
+    fuction fnc4(x, y){     //함수 선언 - 매개변수 O 리턴 O
+        document.write("함수4 호출"+"<br>");
+        return x+y;
+    }
+    var a = fnc4(20, 40);
+    var b = fnc3();
+    document.write(a);
+    document.write(b);
+    fnc2(40);
+    fnc1();
+
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
