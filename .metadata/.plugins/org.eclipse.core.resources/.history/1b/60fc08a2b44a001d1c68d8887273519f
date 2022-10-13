@@ -1,0 +1,19 @@
+package test4;
+
+public class ElementaryStudent extends Student{
+
+	public ElementaryStudent(String string, int i, int j, int k) {
+		super(string, i, j, k);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public int computeTot(int jum1, int jum2, int jum3) {
+		return jum1+jum2+jum3;
+	}
+
+	@Override
+	public double computeAvg(int jum1, int jum2, int jum3) {
+		return (float) (jum1+jum2+jum3)/3;
+	}
+}

@@ -1,0 +1,19 @@
+package test4;
+
+public class StudentEx {
+	public static void main(String[] args) {
+		Student st1 = new Student("김기태",90,80,90);
+		System.out.println("이름\t총점\t평균\t학점\t판정");
+		System.out.println(st1.name+"\t"+st1.computeTot(st1.jum1, st1.jum2, st1.jum3)
+				+"\t"+st1.computeAvg(st1.jum1, st1.jum2, st1.jum3)+"\t"+st1.computeHak(st1.jum1, st1.jum2, st1.jum3)
+				+"\t"+st1.calcRes());
+		
+		System.out.println("--------------------------------");
+		
+		Student st2 = new Student("조민재",40,20,50);
+		System.out.println("이름\t총점\t평균\t학점\t판정");
+		System.out.println(st2.name+"\t"+st2.computeTot(st2.jum1, st2.jum2, st2.jum3)
+				+"\t"+st2.computeAvg(st2.jum1, st2.jum2, st2.jum3)+"\t"+st2.computeHak(st2.jum1, st2.jum2, st2.jum3)
+				+"\t"+st2.calcRes());
+	}
+}

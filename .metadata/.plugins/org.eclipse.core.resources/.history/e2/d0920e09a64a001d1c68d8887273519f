@@ -1,0 +1,20 @@
+package test1;
+
+public class NewAccount {
+    private String anumber;
+    private String aowner;
+    private int bal;
+ 
+    public NewAccount(String anumber, String aowner, int bal) {
+        this.anumber = anumber;
+        this.aowner = aowner;
+        this.bal = bal;
+    }
+ 
+    public String getAno() { return anumber; }
+    public void setAno(String anumber) { this.anumber = anumber; }
+    public String getOwner() { return aowner; }
+    public void setOwner(String aowner) { this.aowner = aowner; }
+    public int getBalance() { return bal; }
+    public void setBalance(int bal) { this.bal = bal; }
+}
